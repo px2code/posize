@@ -28,7 +28,7 @@ Try the posize [playground](https://www.pxcode.io/playground/posize)
 
 just add the script in your `<head>`
 ```html
-<script src="https://cdn.jsdelivr.net/gh/px2code/posize/src/posize/v1.00.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/px2code/posize/build/v1.00.js"></script>
 ```
 
 ## Usage
