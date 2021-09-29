@@ -1,10 +1,14 @@
 # posize
 
-Posize is the flexible layout tool which implements the concept of resizing constraints
+Posize is the flexible layout tool which implements the concept of resizing constraints.
 
 ## Description
 
 All popular design tools have the concept of resizing constraints, such as [Sketch](https://www.sketch.com/docs/designing/layer-basics/resizing-constraints/), [Figma](https://help.figma.com/hc/en-us/articles/360039957734-Apply-Constraints-to-define-how-layers-resize), and [AdobeXD](https://helpx.adobe.com/xd/help/using-responsive-resize.html). It's very useful to define the responsive behavior which describes how to position and resize an item across different resolutions.
+
+
+[pxCode](https://pxcode.io), an online editor which help users to convert design files into responsive web code, widely uses posize to achieve responsiveness.
+
 
 ![Posize Demo](https://raw.githubusercontent.com/px2code/posize/master/Posize.gif)
 
