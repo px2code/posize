@@ -2,6 +2,8 @@
 
 Posize is the flexible layout tool which implements the concept of resizing constraints.
 
+There is also react version [here](https://github.com/px2code/react-posize)
+
 ## Description
 
 All popular design tools have the concept of resizing constraints, such as [Sketch](https://www.sketch.com/docs/designing/layer-basics/resizing-constraints/), [Figma](https://help.figma.com/hc/en-us/articles/360039957734-Apply-Constraints-to-define-how-layers-resize), and [AdobeXD](https://helpx.adobe.com/xd/help/using-responsive-resize.html). It's very useful to define the responsive behavior which describes how to position and resize an item across different resolutions.
@@ -90,7 +92,7 @@ posize use the [Web Component](https://developer.mozilla.org/en-US/docs/Web/Web_
 ## Browsers support
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari-ios/safari-ios_48x48.png" alt="iOS Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>iOS Safari |
-| --------- | --------- | --------- | --------- | --------- |
+| :---------: | :---------: |  :---------: |  :---------: |  :---------: |
 | 79+ | 63+ | 67+ | 10.1+ | 10.3+
 
 
