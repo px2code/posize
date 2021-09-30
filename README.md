@@ -9,9 +9,11 @@ All popular design tools have the concept of resizing constraints, such as [Sket
 
 [pxCode](https://pxcode.io), an online editor which help users to convert design files into responsive web code, widely uses posize to achieve responsiveness.
 
+\
+**Posize Demo**\
+<img src="https://raw.githubusercontent.com/px2code/posize/master/assets/Posize.gif" width="50%" style="padding: 24px">
 
-![Posize Demo](https://raw.githubusercontent.com/px2code/posize/master/Posize.gif)
-
+## Why Posize rather than CSS margin ?
 
 Traditional CSS margin is useful but limited. CSS margin can't be proportional without using complicated `calc` syntax. And the vertical margin (margin-top and margin-bottom) can't use precent intuitively because the percentage is in terms of the parent width, not height.
 
@@ -25,6 +27,8 @@ Traditional CSS margin is useful but limited. CSS margin can't be proportional w
 ## Demo
 
 Try the posize [playground](https://www.pxcode.io/playground/posize)
+
+<img src="assets/Posize-UI.jpg" width="80%" style="padding: 24px">
 
 ## Installation
 
@@ -75,6 +79,10 @@ The syntax of `x` and `y` is the same to CSS grid.
 - `px` means pixel which is fixed value
 - `fr` means "fraction" which means proportional.
 
+
+## Implementation
+
+posize use the [Web Component](https://developer.mozilla.org/en-US/docs/Web/Web_Components) to simpify the usage and it use 3 x 3 [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) internally for the layout arrangement.
 
 ## Browsers support
 
