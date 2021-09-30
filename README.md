@@ -54,12 +54,12 @@ just add the script in your `<head>`
 posize with MediaQuery, max, xxxl, xxl, xl, lg, md, sm, xs 
 ```html
 <px-posize
-  x="176px 546fr 558fr"
-  y="150px 379px 191fr"
-  md-x="176px 546fr 176fr"
-  md-y="150px 379px 191fr"
-  xs-x="64px 546fr 64fr"
-  xs-y="150px 379px 191fr">
+  x="20px 546fr 558fr"
+  y="20px 379px 191fr"
+  md-x="1fr minmax(400px,2fr) 1fr"
+  md-y="150px 379px 1fr"
+  xs-x="10px 1fr 10px"
+  xs-y="150px 379px 1fr">
   ...
 </px-posize>
 ```      
