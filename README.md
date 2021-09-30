@@ -26,7 +26,7 @@ Traditional CSS margin is useful but limited. CSS margin can't be proportional w
 
 ## Demo
 
-Try the posize [playground](https://www.pxcode.io/playground/posize)
+Try the posize [PLAYGROUND](https://www.pxcode.io/playground/posize) or [CODESANDBOX](https://codesandbox.io/s/posize-demo-l5jqe?file=/index.html)
 
 <img src="assets/Posize-UI.jpg" width="80%" style="padding: 24px">
 
@@ -51,7 +51,7 @@ just add the script in your `<head>`
 </px-posize>
 ```
 
-posize with MediaQuery
+posize with MediaQuery, max, xxxl, xxl, xl, lg, md, sm, xs 
 ```html
 <px-posize
   x="176px 546fr 558fr"
@@ -68,7 +68,6 @@ posize with MediaQuery
 ### Settings
 | name| Type| Default value | Description |
 | ------------- |:-------------:| -----:|-----:|
-|id|String|| the `id` will set to content `div`
 |x|String \| Array| "0px 1fr 0px" | the parameters for left, width and right|
 |y|String \| Array| "0px 1fr 0px" | the parameters for top, height and bottom|
 |z-index|Number|0| set zIndex into track `div`
@@ -76,8 +75,12 @@ posize with MediaQuery
 ## Syntax
 
 The syntax of `x` and `y` is the same to CSS grid.
-- `px` means pixel which is fixed value
-- `fr` means "fraction" which means proportional.
+- `?px` means pixel which is fixed value
+- `?fr` means "fraction" which means proportional to the sibling.
+- `?%` means "perentage" which means proportional to the parent.
+- `max-content` means largest maximal content contribution.
+- `minmax(?px, ?fr)` means a size range greater than or equal to min and less than or equal to max.
+- `minmax(?px, max-content)` means a size range greater than or equal to min and less than or equal to max-content.
 
 
 ## Implementation
