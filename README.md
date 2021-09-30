@@ -28,7 +28,7 @@ Traditional CSS margin is useful but limited. CSS margin can't be proportional w
 
 ## Demo
 
-Try the posize [PLAYGROUND](https://www.pxcode.io/playground/posize) or [CODESANDBOX](https://codesandbox.io/s/posize-demo-l5jqe?file=/index.html)
+Try the posize [Playground](https://www.pxcode.io/playground/posize) or [CodeSandbox](https://codesandbox.io/s/posize-demo-l5jqe?file=/index.html)
 
 <img src="assets/Posize-UI.jpg" width="80%" style="padding: 24px">
 
@@ -49,7 +49,9 @@ just add the script in your `<head>`
 <px-posize 
   x="176fr 546fr 558fr" 
   y="150px 379px 191fr">
-  ...
+  <div class="content">
+    ...
+  </div>
 </px-posize>
 ```
 
@@ -62,7 +64,9 @@ posize with MediaQuery, max, xxxl, xxl, xl, lg, md, sm, xs
   md-y="150px 379px 1fr"
   xs-x="10px 1fr 10px"
   xs-y="150px 379px 1fr">
-  ...
+  <div class="content">
+    ...
+  </div>
 </px-posize>
 ```      
 
