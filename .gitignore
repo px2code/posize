@@ -4,3 +4,4 @@ dist/**
 /dist/
 /.cache/
 /.idea/
+/.DS_Store
