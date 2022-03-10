@@ -38,7 +38,7 @@ Try the posize [Playground](https://www.pxcode.io/playground/posize) or [CodeSan
 
 just add the script in your `<head>`
 ```html
-<script src="https://cdn.jsdelivr.net/gh/px2code/posize/build/v1.00.js"></script>
+<script type="text/javascript" async defer src="https://cdn.jsdelivr.net/gh/px2code/posize/build/v1.00.3.js"></script>
 ```
 
 ## Usage
