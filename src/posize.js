@@ -1,7 +1,7 @@
 import { html, LitElement } from 'lit-element';
 import styleToCss from './style-object-to-css-string';
 
-// posize version v1.00.3
+// posize version v1.00.4
 
 const config = { debug: false };
 const rep = /\s*,\s*/g
@@ -27,6 +27,7 @@ const styles = {
   area: {
     pointerEvents: 'auto',
     position: 'relative',
+    fontSize: '0px', // prevent has natural height
     width: '100%', // fit box, it is necessary because child need refer parent size
     height: '100%' // fit box, it is necessary because child need refer parent size
   },
