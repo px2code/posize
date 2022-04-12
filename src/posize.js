@@ -20,8 +20,8 @@ const styles = {
   relTrack: {
     pointerEvents: 'none',
     position: 'relative',
-    // height: '100%', no need set height
     width: '100%',
+    height: '100%'
   },
 
   area: {
