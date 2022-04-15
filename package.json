@@ -1,14 +1,14 @@
 {
   "name": "html-posize",
-  "version": "v1.00.5",
+  "version": "v1.00.4",
   "description": "Posize Web Component",
   "main": "./src/posize.js",
   "module": "./src/posize.js",
   "type": "module",
   "scripts": {
     "dev": "es-dev-server --node-resolve --watch",
-    "build": "parcel build ./src/posize.js --detailed-report 50 --out-file v1.00.5.js",
-    "build-src": "parcel build ./src/posize.js --no-minify --detailed-report 50 --out-file v1.00.5.src.js"
+    "build": "parcel build ./src/posize.js --detailed-report 50 --out-file v1.00.4.js",
+    "build-src": "parcel build ./src/posize.js --no-minify --detailed-report 50 --out-file v1.00.4.src.js"
   },
   "keywords": [
     "web-components",
