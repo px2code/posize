@@ -1,7 +1,7 @@
 import { html, LitElement } from 'lit-element';
 import styleToCss from './style-object-to-css-string';
 
-// posize version v1.00.4
+// posize version v1.00.5
 
 const config = { debug: false };
 const rep = /\s*,\s*/g
@@ -106,7 +106,9 @@ export class Posize extends LitElement {
       absolute: { type: Boolean, reflect: true },
       'alt-class': { type: String, reflect: true },
       'track-style': { type: String, reflect: true },
-      'area-style': { type: String, reflect: true }
+      'area-style': { type: String, reflect: true },
+
+      debug: { type: Boolean, reflect: true },
     };
   }
 
