@@ -1,7 +1,7 @@
 import { html, LitElement } from 'lit-element';
 import styleToCss from './style-object-to-css-string';
 
-// posize version v1.00.6
+// posize version v1.00.7
 
 const config = { debug: false };
 const rep = /\s*,\s*/g
@@ -337,4 +337,7 @@ export class Posize extends LitElement {
 
 if (!window.customElements.get || !window.customElements.get('px-posize')) {
   window.customElements.define('px-posize', Posize);
+}
+if (!window.customElements.get || !window.customElements.get('px-grid')) {
+  window.customElements.define('px-grid', Posize);
 }
