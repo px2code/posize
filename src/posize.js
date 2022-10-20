@@ -1,7 +1,7 @@
 import { html, LitElement } from 'lit-element';
 import styleToCss from './style-object-to-css-string';
 
-// posize version v1.00.8
+// posize version v1.00.9
 
 const config = { debug: false };
 const rep = /\s*,\s*/g
@@ -335,6 +335,10 @@ export class Posize extends LitElement {
   }
 }
 
+if (!window.customElements.get || !window.customElements.get('px-posize')) {
+  window.customElements.define('px-posize', PxGrid);
+}
+
 export class PxGrid extends LitElement {
   constructor() {
     super();
@@ -613,8 +617,8 @@ export class PxGrid extends LitElement {
                 }
             }
 
-            ${this['track-style'] ? this.genCssStyle(':host', JSON.parse(this['track-style'])) : ''}
-            ${this['area-style'] ? this.genCssStyle('.area', JSON.parse(this['area-style'])) : ''}
+            ${this['track-style'] ? `:host ${this['track-style']}` : ''}
+            ${this['area-style'] ? `:host ${this['area-style']}` : ''}
         </style>
 
         <div class="area">
@@ -627,6 +631,3 @@ if (!window.customElements.get || !window.customElements.get('px-grid')) {
   window.customElements.define('px-grid', Posize);
 }
 
-if (!window.customElements.get || !window.customElements.get('px-posize')) {
-  window.customElements.define('px-posize', PxGrid);
-}

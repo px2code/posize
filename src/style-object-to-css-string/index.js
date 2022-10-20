@@ -1,3 +1,3 @@
-import objToString from './objToString';
+import styleToCss from './objToString';
 
-export default objToString;
+export default styleToCss;
