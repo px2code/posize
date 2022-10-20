@@ -1,7 +1,7 @@
 import { html, LitElement } from 'lit-element';
 import styleToCss from './style-object-to-css-string';
 
-// posize version v1.00.7
+// posize version v1.00.8
 
 const config = { debug: false };
 const rep = /\s*,\s*/g
