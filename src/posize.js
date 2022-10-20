@@ -336,7 +336,7 @@ export class Posize extends LitElement {
 }
 
 if (!window.customElements.get || !window.customElements.get('px-posize')) {
-  window.customElements.define('px-posize', PxGrid);
+  window.customElements.define('px-posize', Posize);
 }
 
 export class PxGrid extends LitElement {
@@ -618,7 +618,7 @@ export class PxGrid extends LitElement {
             }
 
             ${this['track-style'] ? `:host ${this['track-style']}` : ''}
-            ${this['area-style'] ? `:host ${this['area-style']}` : ''}
+            ${this['area-style'] ? `:area ${this['area-style']}` : ''}
         </style>
 
         <div class="area">
@@ -628,6 +628,6 @@ export class PxGrid extends LitElement {
 }
 
 if (!window.customElements.get || !window.customElements.get('px-grid')) {
-  window.customElements.define('px-grid', Posize);
+  window.customElements.define('px-grid', PxGrid);
 }
 
