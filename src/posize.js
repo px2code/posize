@@ -1,7 +1,7 @@
 import { html, LitElement } from 'lit-element';
 import styleToCss from './style-object-to-css-string';
 
-// posize version v1.01.1
+// posize version v1.01.0
 
 const config = { debug: false };
 const rep = /\s*,\s*/g
@@ -617,8 +617,8 @@ export class PxGrid extends LitElement {
                 }
             }
 
-            ${this['track-style'] ? `:host ${this['track-style']}` : ''}
-            ${this['area-style'] ? `:area ${this['area-style']}` : ''}
+            ${this['track-style'] ? `:host {${this['track-style']}}` : ''}
+            ${this['area-style'] ? `:area {${this['area-style']}}` : ''}
         </style>
 
         <div class="area">
